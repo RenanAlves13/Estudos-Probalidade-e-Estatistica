@@ -1,0 +1,17 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r setup-importacao}
+
+dados_vendas <- read_csv("dataset/app_store_music_reviews.csv")
+glimpse(dados_vendas)
+```
+
+
+```{r}
+plot(cars)
+```
+
